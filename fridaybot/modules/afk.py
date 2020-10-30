@@ -45,7 +45,7 @@ async def _(event):
         USER_AFK = f"yes: {reason}"  # pylint:disable=E0602
         if reason:
             await borg.send_message(
-                event.chat_id, f"**My Master Seems To Be Too Busy 👀.** \n__He Going Afk Because Of__ `{reason}`"
+                event.chat_id, f"**My Master Seems To Be Too Busy 👀.** \n__He Going Afk Because Of_ \n_Travelling The World Of Isekai \nSearching Some Hot Babes_ `{reason}`"
             )
         else:
             await borg.send_message(event.chat_id, f"**I Am Busy And I Am Going Afk**.")
